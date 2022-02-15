@@ -83,7 +83,7 @@ public class ConverterParaRomano
 		
 		romano = romano.toUpperCase();
 		
-		/*A pedido do professor, a notaÃ§Ã£o do nÃºmero 4000 foi mudada para MMMM, pois nÃ£o Ã© possivel comparar a notaÃ§Ã£o 
+		/*A pedido do professor, a notação do número 4000 foi mudada para MMMM, pois não é possível comparar a notação
 		original romana.*/
 		
 		Pattern pattern = Pattern.compile("^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$");

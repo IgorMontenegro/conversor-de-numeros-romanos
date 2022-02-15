@@ -1,6 +1,6 @@
 package ufg.tacs.conversor_de_numeros_romanos;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import junit.framework.TestCase;
 
